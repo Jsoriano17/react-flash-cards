@@ -26,6 +26,7 @@ export default class App extends Component {
     console.log(id)
     const index = this.state.flashCards.findIndex(flashCard => flashCard.id === id)
     console.log(this.state.flashCards[index].showCard)
+    //i want to change the showCard to the opposite when 'flip' is clicked for now i have it === false for testing 
     // this.setState({
     //  flashCards: this.state.flashCards[index].showCard === false
     // })
